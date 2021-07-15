@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF948B5B26A036C2004BABBB /* hello_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF948B5A26A036C2004BABBB /* hello_macosApp.swift */; };
+		EF948B5D26A036C2004BABBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF948B5C26A036C2004BABBB /* ContentView.swift */; };
+		EF948B5F26A036C4004BABBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF948B5E26A036C4004BABBB /* Assets.xcassets */; };
+		EF948B6226A036C4004BABBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF948B6126A036C4004BABBB /* Preview Assets.xcassets */; };
+		EF948B6E26A036C4004BABBB /* hello_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF948B6D26A036C4004BABBB /* hello_macosTests.swift */; };
+		EF948B7926A036C4004BABBB /* hello_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF948B7826A036C4004BABBB /* hello_macosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF948B6A26A036C4004BABBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF948B4F26A036C2004BABBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF948B5626A036C2004BABBB;
+			remoteInfo = "hello-macos";
+		};
+		EF948B7526A036C4004BABBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF948B4F26A036C2004BABBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF948B5626A036C2004BABBB;
+			remoteInfo = "hello-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF948B5726A036C2004BABBB /* hello-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF948B5A26A036C2004BABBB /* hello_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_macosApp.swift; sourceTree = "<group>"; };
+		EF948B5C26A036C2004BABBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF948B5E26A036C4004BABBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF948B6126A036C4004BABBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF948B6326A036C4004BABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF948B6426A036C4004BABBB /* hello_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hello_macos.entitlements; sourceTree = "<group>"; };
+		EF948B6926A036C4004BABBB /* hello-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF948B6D26A036C4004BABBB /* hello_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_macosTests.swift; sourceTree = "<group>"; };
+		EF948B6F26A036C4004BABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF948B7426A036C4004BABBB /* hello-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF948B7826A036C4004BABBB /* hello_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_macosUITests.swift; sourceTree = "<group>"; };
+		EF948B7A26A036C4004BABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF948B5426A036C2004BABBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B6626A036C4004BABBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B7126A036C4004BABBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF948B4E26A036C2004BABBB = {
+			isa = PBXGroup;
+			children = (
+				EF948B5926A036C2004BABBB /* hello-macos */,
+				EF948B6C26A036C4004BABBB /* hello-macosTests */,
+				EF948B7726A036C4004BABBB /* hello-macosUITests */,
+				EF948B5826A036C2004BABBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF948B5826A036C2004BABBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF948B5726A036C2004BABBB /* hello-macos.app */,
+				EF948B6926A036C4004BABBB /* hello-macosTests.xctest */,
+				EF948B7426A036C4004BABBB /* hello-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF948B5926A036C2004BABBB /* hello-macos */ = {
+			isa = PBXGroup;
+			children = (
+				EF948B5A26A036C2004BABBB /* hello_macosApp.swift */,
+				EF948B5C26A036C2004BABBB /* ContentView.swift */,
+				EF948B5E26A036C4004BABBB /* Assets.xcassets */,
+				EF948B6326A036C4004BABBB /* Info.plist */,
+				EF948B6426A036C4004BABBB /* hello_macos.entitlements */,
+				EF948B6026A036C4004BABBB /* Preview Content */,
+			);
+			path = "hello-macos";
+			sourceTree = "<group>";
+		};
+		EF948B6026A036C4004BABBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF948B6126A036C4004BABBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF948B6C26A036C4004BABBB /* hello-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF948B6D26A036C4004BABBB /* hello_macosTests.swift */,
+				EF948B6F26A036C4004BABBB /* Info.plist */,
+			);
+			path = "hello-macosTests";
+			sourceTree = "<group>";
+		};
+		EF948B7726A036C4004BABBB /* hello-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF948B7826A036C4004BABBB /* hello_macosUITests.swift */,
+				EF948B7A26A036C4004BABBB /* Info.plist */,
+			);
+			path = "hello-macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF948B5626A036C2004BABBB /* hello-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF948B7D26A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macos" */;
+			buildPhases = (
+				EF948B5326A036C2004BABBB /* Sources */,
+				EF948B5426A036C2004BABBB /* Frameworks */,
+				EF948B5526A036C2004BABBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-macos";
+			productName = "hello-macos";
+			productReference = EF948B5726A036C2004BABBB /* hello-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF948B6826A036C4004BABBB /* hello-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF948B8026A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macosTests" */;
+			buildPhases = (
+				EF948B6526A036C4004BABBB /* Sources */,
+				EF948B6626A036C4004BABBB /* Frameworks */,
+				EF948B6726A036C4004BABBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF948B6B26A036C4004BABBB /* PBXTargetDependency */,
+			);
+			name = "hello-macosTests";
+			productName = "hello-macosTests";
+			productReference = EF948B6926A036C4004BABBB /* hello-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF948B7326A036C4004BABBB /* hello-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF948B8326A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macosUITests" */;
+			buildPhases = (
+				EF948B7026A036C4004BABBB /* Sources */,
+				EF948B7126A036C4004BABBB /* Frameworks */,
+				EF948B7226A036C4004BABBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF948B7626A036C4004BABBB /* PBXTargetDependency */,
+			);
+			name = "hello-macosUITests";
+			productName = "hello-macosUITests";
+			productReference = EF948B7426A036C4004BABBB /* hello-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF948B4F26A036C2004BABBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EF948B5626A036C2004BABBB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EF948B6826A036C4004BABBB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EF948B5626A036C2004BABBB;
+					};
+					EF948B7326A036C4004BABBB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EF948B5626A036C2004BABBB;
+					};
+				};
+			};
+			buildConfigurationList = EF948B5226A036C2004BABBB /* Build configuration list for PBXProject "hello-macos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF948B4E26A036C2004BABBB;
+			productRefGroup = EF948B5826A036C2004BABBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF948B5626A036C2004BABBB /* hello-macos */,
+				EF948B6826A036C4004BABBB /* hello-macosTests */,
+				EF948B7326A036C4004BABBB /* hello-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF948B5526A036C2004BABBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF948B6226A036C4004BABBB /* Preview Assets.xcassets in Resources */,
+				EF948B5F26A036C4004BABBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B6726A036C4004BABBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B7226A036C4004BABBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF948B5326A036C2004BABBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF948B5D26A036C2004BABBB /* ContentView.swift in Sources */,
+				EF948B5B26A036C2004BABBB /* hello_macosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B6526A036C4004BABBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF948B6E26A036C4004BABBB /* hello_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF948B7026A036C4004BABBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF948B7926A036C4004BABBB /* hello_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF948B6B26A036C4004BABBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF948B5626A036C2004BABBB /* hello-macos */;
+			targetProxy = EF948B6A26A036C4004BABBB /* PBXContainerItemProxy */;
+		};
+		EF948B7626A036C4004BABBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF948B5626A036C2004BABBB /* hello-macos */;
+			targetProxy = EF948B7526A036C4004BABBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF948B7B26A036C4004BABBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF948B7C26A036C4004BABBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EF948B7E26A036C4004BABBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-macos/hello_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"hello-macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "hello-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF948B7F26A036C4004BABBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-macos/hello_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"hello-macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "hello-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF948B8126A036C4004BABBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-macos.app/Contents/MacOS/hello-macos";
+			};
+			name = Debug;
+		};
+		EF948B8226A036C4004BABBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-macos.app/Contents/MacOS/hello-macos";
+			};
+			name = Release;
+		};
+		EF948B8426A036C4004BABBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "hello-macos";
+			};
+			name = Debug;
+		};
+		EF948B8526A036C4004BABBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello-world.hello-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "hello-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF948B5226A036C2004BABBB /* Build configuration list for PBXProject "hello-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF948B7B26A036C4004BABBB /* Debug */,
+				EF948B7C26A036C4004BABBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF948B7D26A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF948B7E26A036C4004BABBB /* Debug */,
+				EF948B7F26A036C4004BABBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF948B8026A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF948B8126A036C4004BABBB /* Debug */,
+				EF948B8226A036C4004BABBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF948B8326A036C4004BABBB /* Build configuration list for PBXNativeTarget "hello-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF948B8426A036C4004BABBB /* Debug */,
+				EF948B8526A036C4004BABBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF948B4F26A036C2004BABBB /* Project object */;
+}
